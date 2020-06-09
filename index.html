@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles/myStyle.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/203fa4476d.js" crossorigin="anonymous"></script>
+
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+
+  <title>Evento.LK</title>
+</head>
+
+<body>
+  <div class="fullBody">
+    <div class="myNavbar">
+      <div class="logoDiv">
+        <img class="logo" src="./images/logo.png" alt="">
+      </div>
+      <div class="navbarItems">
+        <button class="navbarItem" data-toggle="modal" data-target="#howItWork">
+          How it Works
+        </button>
+        <button class="navbarItem" data-toggle="modal" data-target="#aboutUs">
+          About Us
+        </button>
+      </div>
+    </div>
+    <div class="content">
+      <div class="welcomeWrapper">
+        <div class="welcomeHeader">
+          COMING SOON
+        </div>
+        <div class="welcomeHeaderHr">
+
+        </div>
+        <div class="welcomeText">
+          It's a site focused on posting ads and booking professionals. We take the headache out of trying to choose the
+          best professionals and help you to develop an event that everyone remembers
+        </div>
+
+        <button class="notifyBtn" data-toggle="modal" data-target="#notifyMe"> NOTIFY ME </button>
+      </div>
+
+    </div>
+
+    <!--How it Work Modal -->
+    <div id="howItWork" class="modal fade fullModalWrapper" role="dialog">
+      <div class="modal-dialog fullModal" data-dismiss="modal">
+
+        <!-- Modal content-->
+        <div class="modal-content fullModal">
+          <div class="modal-body fullModal fullModalBody">
+
+
+            <div class="modalHeader">
+              How Evento.lk works
+            </div>
+            <div class="welcomeHeaderHr">
+
+            </div>
+            <br> <br>
+
+            <div class="modalWelcomeText">
+              <div class="welcomeTextPara">
+                <b> Are you interested in becoming an Evento.lk professional and getting customers easily?</b>
+              </div>
+              <div class="welcomeTextPara">
+                <b> Great! Here's how the Evento.lk works:</b>
+              </div>
+
+              <div class="welcomeTextPara">
+                Evento.lk provides online booking services. We act as an intermediary (agent) between customers wanting
+                to book professionals and you. This type of business model is also known as an 'agency model'.
+              </div>
+              <div class="welcomeTextPara">
+                It's important to remember that the agreement is made directly between you and the customers. Unlike
+                other agency websites, Evento.lk is not a contracting party in the transaction between you and the
+                customers.
+                That way you have the full control over your rates and availability, and can offer customers more
+                transparency on your rules and overall offering.
+                The customers pay the booking rate to you after your service or earlier in case of non-refundable
+                booking. You have an agreement with Evento.lk for using the online event planning platform and you have
+                to pay a commission amount for a selected period of time when getting registered.
+              </div>
+              <div class="welcomeTextPara">
+                We don't add anything to your prices. Unlike other platforms that charge customers extra fees, the price
+                you set is the price we display on Evento.lk. You can also communicate the price rates personally with
+                the customers. There are no other costs.
+              </div>
+            </div>
+
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div> -->
+        </div>
+
+      </div>
+    </div>
+
+    <!--About Modal -->
+    <div id="aboutUs" class="modal fade fullModalWrapper" role="dialog">
+      <div class="modal-dialog fullModal" data-dismiss="modal">
+
+        <!-- Modal content-->
+        <div class="modal-content fullModal">
+          <div class="modal-body fullModal fullModalBody">
+            <div class="modalHeader">
+              About Us
+            </div>
+            <div class="welcomeHeaderHr">
+
+            </div>
+            <br> <br>
+
+            <div class="modalWelcomeText">
+              <div class="welcomeTextPara">
+                Helping you to make extra ordinary events is our speciality, We hope to assist you in booking your
+                perfect professional at reasonable rates.
+              </div>
+              <div class="welcomeTextPara">
+                We provide you various choices to book your favourite professionals in Photography, Henna designing,
+                Fashion designing, Throne arrangement, Cake making, Hair dressing and etc to make the best moments extra
+                special.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="notifyMe" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+
+          <div class="modal-body notifyModal">
+            <div data-dismiss="modal">
+              <img src="./images/logogreen.png" class="modalLogo" alt="">
+
+            </div>
+            <div>
+              <input type="text" class="form-control myInput" placeholder="Your Name" name="" id="" required>
+              <input type="text" class="form-control myInput" placeholder="Email" id="">
+              <input type="text" class="form-control myInput" placeholder="Phone Number" name="" id="" required>
+              <textarea placeholder="Suggestions (Optional)" class="form-control myInput" name="" id="" cols="30"
+                rows="4"></textarea>
+              <button class="notifyBtn2">Notify Me</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div style="display: flex; margin: auto; justify-content: center;">
+        <p style="font-size: 30px;margin-top: -10px; margin-right: 8px;">
+          <i class="fa fa-instagram instaIcon" aria-hidden="true"></i></p>
+        <p>
+          EVENTO_LK
+        </p>
+      </div>
+    </div>
+
+
+
+  </div>
+</body>
+
+</html>

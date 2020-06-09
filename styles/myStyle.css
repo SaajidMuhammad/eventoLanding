@@ -1,0 +1,211 @@
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+.fullBody{
+  background-image: url('../images/Background.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.myNavbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.logo{
+  height: 50px;
+}
+
+.navbarItems{
+  display: flex;
+}
+
+.navbarItem{
+  background: rgba(255, 255, 255, 0);
+  border: none;
+
+  margin: 0 6px;
+  color: white;
+  font-weight: bold;
+  padding: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.content{
+  text-align: center;
+  height: 70vh;
+}
+
+.welcomeWrapper{
+  width: 75%;
+  margin: auto;
+  padding-top: 10vh;
+}
+
+.welcomeHeader{
+  font-size: 72px;
+  color: white;
+  font-family: 'Poppins';
+
+}
+
+.modalHeader{
+  font-size: 60px;
+  color: white;
+  font-family: 'Poppins';
+  margin-top: 10vh;
+  /* border-bottom : solid 2px rgb(168, 185, 90); */
+}
+
+.welcomeHeaderHr{
+  border-bottom : solid 2px rgb(168, 185, 90);
+  width: 30%;
+  margin: auto;
+}
+
+.welcomeText{
+  color: white;
+  font-size: 20px;
+  margin-top: 22px;
+
+}
+
+
+.notifyBtn{
+  background: rgba(143, 158, 78, 0.637);
+  border: none;
+  padding: 10px 32px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 32px;
+  font-size: 17px;
+}
+
+.footer{
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Changim Bootstrap Settings */
+
+.fullModal{
+  margin: 0 !important;
+  border-radius: 0 !important;
+  min-height: 100vh !important;
+  width: 100% !important;
+  text-align: center;
+}
+
+.fullModalWrapper{
+  padding-left: 0 !important;
+}
+
+
+.fullModalBody{
+  background-image: url('../images/Background.jpg');
+  background-size: cover;
+  padding-top: 10px;
+}
+
+.welcomeTextPara{
+  margin: 24px 0;
+  text-align: justify;
+}
+
+.modalWelcomeText{
+  color: white;
+  font-size: 20px;
+  margin-top: 22px;
+  width: 70%;
+  margin: auto;
+}
+
+.notifyModal{
+  text-align: center;
+}
+
+.modalLogo{
+  height: 75px;
+  margin-bottom: 6vh;
+}
+
+.myInput{
+  border-radius: 0 !important;
+  margin-bottom: 10px;
+}
+
+.notifyBtn2{
+  background: rgb(127, 139, 70);
+  border: none;
+  padding: 10px 32px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 32px;
+  font-size: 17px;
+}
+
+
+@media only screen and (max-width: 720px) {
+  .welcomeHeaderHr{
+    width: 50%;
+  }
+
+  .welcomeWrapper{
+    padding-top: 4vh;
+  }
+
+  .welcomeHeader{
+    font-size: 50px;
+  }
+
+  .modalHeader{
+    font-size: 40px;
+  }
+
+  .modalWelcomeText{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .myNavbar{
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .logoDiv{
+    text-align: center;
+  }
+
+  .logo{
+    height: 60px;
+    margin-bottom: 14px;
+  }
+
+  .content{
+    height: 64vh;
+  }
+
+  .welcomeHeader{
+    font-size: 40px;
+  }
+
+  .welcomeWrapper{
+    width: 90%;
+  }
+
+  .navbarItems{
+    justify-content: center;
+  }
+}
+
