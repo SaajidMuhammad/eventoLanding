@@ -148,12 +148,17 @@
 
             </div>
             <div>
-              <input type="text" class="form-control myInput" placeholder="Your Name" name="" id="" required>
-              <input type="text" class="form-control myInput" placeholder="Email" id="">
-              <input type="text" class="form-control myInput" placeholder="Phone Number" name="" id="" required>
-              <textarea placeholder="Suggestions (Optional)" class="form-control myInput" name="" id="" cols="30"
-                rows="4"></textarea>
-              <button class="notifyBtn2">Notify Me</button>
+              <form action="https://formspree.io/meqrkqlw" method="POST">
+
+                <input type="text" class="form-control myInput" placeholder="Your Name" name="userName" id="" required>
+                <input type="text" class="form-control myInput" placeholder="Email" name="_replyto">
+                <input type="text" class="form-control myInput" placeholder="Phone Number" name="phoneNumber" id=""
+                  required>
+                <textarea placeholder="Suggestions (Optional)" class="form-control myInput" name="message" id=""
+                  cols="30" rows="4"></textarea>
+                <button class="notifyBtn2" type="submit">Notify Me</button>
+
+              </form>
             </div>
           </div>
         </div>
