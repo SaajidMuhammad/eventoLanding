@@ -15,7 +15,7 @@ a:HOVER{
 
 
 .fullBody{
-  background-image: url('../images/Background.jpg');
+  background-image: url('../images/Background.JPG');
   background-size: cover;
   height: 100vh;
 }
@@ -128,7 +128,7 @@ a:HOVER{
 
 
 .fullModalBody{
-  background-image: url('../images/Background.jpg');
+  background-image: url('../images/Background.JPG');
   background-size: cover;
   padding-top: 10px;
 }
