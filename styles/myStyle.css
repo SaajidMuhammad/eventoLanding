@@ -4,6 +4,15 @@ body{
   padding: 0;
 }
 
+a{
+  color: white !important;
+}
+
+a:HOVER{
+  color: white !important;
+  text-decoration: none !important;
+}
+
 
 .fullBody{
   background-image: url('../images/Background.jpg');
@@ -20,6 +29,10 @@ body{
 .logo{
   height: 50px;
 }
+/* 
+.xyz{
+  max-width: 100vh !important;
+} */
 
 .navbarItems{
   display: flex;
@@ -39,7 +52,7 @@ body{
 
 .content{
   text-align: center;
-  height: 70vh;
+  height: 68vh;
 }
 
 .welcomeWrapper{
@@ -72,8 +85,8 @@ body{
 .welcomeText{
   color: white;
   font-size: 20px;
-  margin-top: 22px;
-
+  margin: 22px auto;
+  max-width: 640px;
 }
 
 
@@ -84,18 +97,22 @@ body{
   color: white;
   cursor: pointer;
   font-weight: bold;
-  margin-top: 32px;
+  margin-top: 16px;
   font-size: 17px;
 }
 
 .footer{
   text-align: center;
-  color: white;
+  color: white !important;
   font-size: 16px;
   font-weight: bold;
+  position: fixed;
+  width: 100%;
+  margin-top: 16px;
 }
 
 /* Changim Bootstrap Settings */
+
 
 .fullModal{
   margin: 0 !important;
@@ -155,6 +172,8 @@ body{
 }
 
 
+
+
 @media only screen and (max-width: 720px) {
   .welcomeHeaderHr{
     width: 50%;
@@ -174,8 +193,17 @@ body{
 
   .modalWelcomeText{
     width: 100%;
+    font-size: 18px;
   }
+
+  .welcomeText{
+    font-size: 18px;
+  }
+  
 }
+
+
+
 
 @media only screen and (max-width: 480px) {
   .myNavbar{
