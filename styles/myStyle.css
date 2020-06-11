@@ -142,6 +142,8 @@ a:HOVER{
 .welcomeTextPara{
   margin: 24px 0;
   text-align: justify;
+  font-family: 'Alata';
+
 }
 
 .modalWelcomeText{
@@ -150,6 +152,8 @@ a:HOVER{
   margin-top: 22px;
   width: 70%;
   margin: auto;
+  font-family: 'Alata';
+
 }
 
 .notifyModal{
